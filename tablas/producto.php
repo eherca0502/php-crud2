@@ -102,7 +102,7 @@
           <?php } ?>
         </tbody>
       </table>
-      <button class="btn btn-success" onclick="exportTableToExcel('tblData')">Export Table Data To Excel File</button>
+      <button class="btn btn-primary" onclick="exportTableToExcel('tblData')">Export Table Data To Excel File</button>
     </div>
 
   </div>

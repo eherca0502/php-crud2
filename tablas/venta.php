@@ -4,7 +4,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="empleado.php">Empleado</a>
+                <a class="nav-link" href="empleado.php">Empleados</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="cliente.php">Cliente</a>
@@ -95,7 +95,7 @@
                     <?php } ?>
                 </tbody>
             </table>
-            <button class="btn btn-success" onclick="exportTableToExcel('tblData')">Export Table Data To Excel File</button>
+            <button class="btn btn-primary" onclick="exportTableToExcel('tblData')">Export Table Data To Excel File</button>
         </div>
 
     </div>

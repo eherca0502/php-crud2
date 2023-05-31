@@ -17,7 +17,7 @@
         <div class="form-group">
             <input type="submit" class="btn btn-primary" name="" id="">
         </div>
-        <a href="inicia.php">iniciac Secion</a>
+        <a href="inicia.php">iniciar Sesion</a>
     </form>
 </div>
 

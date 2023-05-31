@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>CRUD</title>
+    <title>Crud</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <!-- BOOTSTRAP-->
 
@@ -27,7 +27,8 @@
                 <div class="form-group">
                     <input class="btn btn-primary" type="submit" name="" id="">
                 </div>
-                <a href="crea.php">Crea Una Cuenta</a>
+                <a href="crea.php">Registrate
+                </a>
         </div>
         </form>
 

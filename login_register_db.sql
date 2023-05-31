@@ -26,7 +26,8 @@ SET time_zone = "+00:00";
 --
 -- Estructura de tabla para la tabla `cliente`
 --
-
+CREATE DATABASE login_register_db;
+USE login_register_db;
 CREATE TABLE `cliente` (
   `id` int(11) NOT NULL,
   `nombre` varchar(50) COLLATE utf8_spanish_ci NOT NULL,
@@ -42,7 +43,7 @@ CREATE TABLE `cliente` (
 --
 
 INSERT INTO `cliente` (`id`, `nombre`, `apellidoP`, `apellidoM`, `telefono`, `correo`, `estatus`) VALUES
-(1, 'milton', 'h', 'm', '888', 'm@gmail.com', 1);
+(1, 'Eduardo', 'Hernandez', 'Campos', '8661234567', 'hdze977@gmail.com', 1);
 
 -- --------------------------------------------------------
 

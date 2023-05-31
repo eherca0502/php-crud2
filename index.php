@@ -5,19 +5,19 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="tablas/empleado.php">Empleado</a>
+                <a class="nav-link" href="tablas/empleado.php">Empleados</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="tablas/cliente.php">Cliente</a>
+                <a class="nav-link" href="tablas/cliente.php">Clientes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="tablas/producto.php">Producto</a>
+                <a class="nav-link" href="tablas/producto.php">Productos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="tablas/proveedor.php">Proveedor</a>
+                <a class="nav-link" href="tablas/proveedor.php">Proveedores</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="tablas/venta.php">Venta</a>
+                <a class="nav-link" href="tablas/venta.php">Ventas</a>
               </li>
             </ul>
           </nav>

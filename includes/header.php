@@ -16,7 +16,7 @@
 
   <nav class="navbar navbar-dark bg-primary">
     <div class="container">
-      <a class="navbar-brand" href="">CRUD</a>
+      <a class="navbar-brand" href="">Crud</a>
     </div>
     <div class="container">
       <div class="row">

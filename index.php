@@ -2,7 +2,7 @@
 
 <?php include('includes/header.php'); ?>
 <!--a href="inicia.php" class="btn btn-danger">Salir</!--a-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link" href="tablas/empleado.php">Empleados</a>

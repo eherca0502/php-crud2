@@ -3,7 +3,7 @@
 <div class="card card-body">
     <form action="php/registro_usuario_be.php" method="post" class="">
         <div class="form-group">
-            <p>Nombre Usuario</p>
+            <p> Usuario</p>
             <input type="text" name="Nusuarioc" id="Nusuarioc">
         </div>
         <div class="form-group">

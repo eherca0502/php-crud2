@@ -1,7 +1,7 @@
 <?php include("../db.php"); ?>
 
 <?php include('../includes/header.php'); ?>
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link" href="empleado.php">Empleados</a>
@@ -54,7 +54,7 @@
                         <input name="estatus" type="number" max="1" min="0" rows="2" class="form-control" value="1" placeholder=""></input>
                     </div>
 
-                    <input type="submit" name="save_task" class="btn btn-success btn-block" value="Guardar">
+                    <input type="submit" name="save_task" class="btn btn-primary btn-block bi bi-save2" value="Guardar">
                 </form>
             </div>
         </div>
@@ -84,7 +84,7 @@
                             <td><?php echo $row['descripcion']; ?></td>
                             <td><?php echo $row['estatus']; ?></td>
                             <td>
-                                <a href="edit.php?id=<?php echo $row['id'] ?>" class="btn btn-secondary">
+                                <a href="edit.php?id=<?php echo $row['id'] ?>" class="btn btn-warning">
                                     <i class="fas fa-marker"></i>
                                 </a>
                                 <a href="../deletes/delete_cliente.php?id=<?php echo $row['id'] ?>" class="btn btn-danger">

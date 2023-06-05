@@ -1,7 +1,7 @@
 <?php include("../db.php"); ?>
 
 <?php include('../includes/header.php'); ?>
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <ul class="navbar-nav">
              
               <li class="nav-item">
@@ -59,7 +59,7 @@
                         <input name="estatus" type="number" max="1" min="0" rows="2" class="form-control" value="1" placeholder=""></input>
                     </div>
 
-                    <input type="submit" name="save_task" class="btn btn-success btn-block" value="Guardar">
+                    <input type="submit" name="save_task" class="btn btn-primary bi bi-save2" value="Guardar">
                 </form>
             </div>
         </div>
@@ -91,7 +91,7 @@
                             <td><?php echo $row['telefono']; ?></td>
                             <td><?php echo $row['estatus']; ?></td>
                             <td>
-                                <a href="edit.php?id=<?php echo $row['id'] ?>" class="btn btn-secondary">
+                                <a href="edit.php?id=<?php echo $row['id'] ?>" class="btn btn-warning">
                                     <i class="fas fa-marker"></i>
                                 </a>
                                 <a href="../deletes/delete_cliente.php?id=<?php echo $row['id'] ?>" class="btn btn-danger">
@@ -102,7 +102,7 @@
                     <?php } ?>
                 </tbody>
             </table>
-            <button class="btn btn-success" onclick="exportTableToExcel('tblData')">Export Table Data To Excel File</button>
+            <button class="btn btn-primary" onclick="exportTableToExcel('tblData')">Export Table Data To Excel File</button>
         </div>
 
     </div>
